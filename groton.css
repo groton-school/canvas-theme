@@ -1,0 +1,6 @@
+a[href*="masquerade"][class*="Button"][data-method="post"]
+{
+	position: absolute;
+	top: 4em;
+	left: 1em;
+}

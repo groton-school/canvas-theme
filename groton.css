@@ -4,3 +4,17 @@
 #left-side #section-tabs {
   margin-bottom: 1in;
 }
+
+/*
+ * move masquerade button onscreen for convenience
+ */
+div:has(> a[href$="/masquerade"]) {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  margin-left: -50%;
+}
+a[href$="/masquerade"] {
+  margin-top: 1.25rem !important;
+}

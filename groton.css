@@ -1,3 +1,6 @@
+/*
+ * extra space at bottom of left sidebar to accommodate status bars
+ */
 #left-side #section-tabs {
   margin-bottom: 1in;
 }

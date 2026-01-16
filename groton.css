@@ -8,13 +8,13 @@
 /*
  * move masquerade button onscreen for convenience
  */
-div:has(> a[href$="/masquerade"]) {
+div:has(> a[href$="/masquerade"]):not(:has(.stop_masquerading)) {
   position: absolute;
   top: 0;
   left: 50%;
   width: 100%;
   margin-left: -50%;
 }
-a[href$="/masquerade"] {
+div > a[href$="/masquerade"]:not(.stop_masquerading) {
   margin-top: 1.25rem !important;
 }

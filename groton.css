@@ -18,3 +18,10 @@ div:has(> a[href$="/masquerade"]):not(:has(.stop_masquerading)) {
 div > a[href$="/masquerade"]:not(.stop_masquerading) {
   margin-top: 1.25rem !important;
 }
+
+/*
+ * unshrink section SIS ID form field
+ */
+.edit_course_section input[title="SIS ID"] {
+  width: inherit !important;
+}
